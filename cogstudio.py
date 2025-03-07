@@ -873,4 +873,4 @@ with gr.Blocks(fill_width=True, fill_height=True, css=css) as demo:
     demo.load(refresh_generated_videos, outputs=reel)
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(share=True)
